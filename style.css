@@ -4,12 +4,12 @@ html{
 
 body{
     font-family: sans-serif;
-    
     margin: 0;
     padding: 0;
+    height: 100%;
     
-    height: 100%
 }
+
 .body-home{
     background-image: url('images/background-01-port.png');
     background-position: center;
@@ -17,7 +17,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 .body-meals{
     background-image: url('images/background-02-port.png');
@@ -46,6 +45,8 @@ input[type-checkbox]:checked + label:before{
     content:"\f14a";
 }
 
+
+
 /*======= HEADER ==========*/
 
 .header{
@@ -71,7 +72,7 @@ input[type-checkbox]:checked + label:before{
     
 }
 
-/*========== HOME PAGE ================*/
+/*======= HOME PAGE ==========*/
 
 #home-logo-img{
     width: 50px;
@@ -79,60 +80,61 @@ input[type-checkbox]:checked + label:before{
     margin: auto;
     padding: 25px 10px 10px 10px;
 }
-#home-logo-text {
+
+#home-logo-text{
     width: auto;
     display: block;
     margin: auto;
     padding: 25px;
 }
 
-/*===== HOME PAGE MENU =====*/
-.home-menu-item {
+/*===HOME PAGE MENU ====*/
+
+.home-menu-item{
     text-decoration: none;
     text-transform: uppercase;
-    
     color: white;
     font-size: 25px;
     font-weight: bold;
     text-align: center;
     border: 5px solid white;
-    
     display: block;
     margin: auto;
     margin-bottom: 10px;
-    width: 80%;   
+    width: 80%;
 }
 
-/*========== MEALS PAGE ================*/
+/*======= MEALS PAGE ==========*/
 
 #meals{
     padding-top: 50px;
 }
 
-/*===== MEALS PAGE MENU =====*/
+/*=== MEALS PAGE MENU ====*/
 
-.meals-list a {
+.meals-list a{
     text-decoration: none;
 }
 
-.meals-list-item {
+.meals-list-item{
     border: 5px solid #1a1a1a;
     margin: 10px;
 }
 
-.meals-list-item h1 {
+.meals-list-item h1{
     font-weight: bold;
     font-size: 20px;
     color: #1a1a1a;
     padding-left: 10px;
 }
-.meals-list-item i {
+
+.meals-list-item i{
     float: right;
     color: #1a1a1a;
     padding-right: 10px;
 }
 
-.meals-list-item p {
+.meals-list-item p{
     font-size: 15px;
     font-style: italic;
     color: #4d4d4d;
